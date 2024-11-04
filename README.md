@@ -17,27 +17,25 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 Include your User Story you analyzed for your project here. Your User Story should have the following format: 
 
-> As an [role], <br> 
-> I want to [goal], <br> 
-> so that I can [benefit]. 
+> As an record producer, <br> 
+> I want to analyze the top songs, <br> 
+> so that I can predict what songs will become popular in the future. 
 
 ## Dataset 
 
-Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type. 
-
 Example: 
 
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+Dataset: [Most Streamed Spotify Songs 2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
+- **bpm** (int) - beats per minute, a measure of song tempo 
+- **danceability_%** (int) - percentage indicating how suitable the song is for dancing
+- **valence_%** (int) - positivity of the song's musical content 
+- **energy_%** (int) - perceived energy level of the song 
+- **speechiness_%** (int) - amount of spoken words in the song 
 
 ## UML Diagram 
 
-Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README. 
-
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![UML Diagram for my project](Unit3UMLDiagram.png) 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+I chose my dataset because it gave me key information on the top songs in 2023 which let me analyze what made songs popular. My project gave averages of the bpm, danceability, valence, energy, and speechiness of the combined top songs. This allows me to predict if a song will become popular depending on if the song has elements that are close to the averages. My project also asks for user interaction. The user is able to make choices by inputting different numbers which correspond to different options.
