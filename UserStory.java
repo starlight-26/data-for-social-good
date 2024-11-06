@@ -29,8 +29,8 @@ public class UserStory {
     double results = 0;
 
     // Traverses an array and adds each element to the results varible
-    for (int i = 0; i < array.length; i++) {
-      results += array[i];
+    for (int song : array) {
+      results += song;
     }  
 
     // Returns results
